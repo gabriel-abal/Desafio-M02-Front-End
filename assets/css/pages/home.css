@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  /* border: 1px solid red; */
+}
+
+.header-container {
+  padding: 20px 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-link-li {
+  list-style: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ad-button {
+  background-color: #0ca778;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.ad-button:hover {
+  background-color: blue;
+}
+
+.container-banner {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.img-banner {
+  width: 100vw;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 47px;
+  border-radius: 8px;
+  height: 300px;
+  width: 750px;
+}
+
+.texto-1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #0ca778;
+}
+
+.texto-2 {
+  font-size: 96px;
+  font-weight: 800;
+  color: #244242;
+}
+
+h2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  color: #244242;
+  padding: 100px;
+}
+
+.section-servicos {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 320px;
+  height: 482px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.servico-img {
+  height: 217px;
+  width: 100%;
+}
+
+.servico-titulo {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #244242;
+  padding: 10px;
+}
+
+.servico-texto {
+  font-size: 16px;
+  font-weight: 400;
+  color: #244242;
+  text-align: justify;
+}
+
+.container-texto {
+  margin: 12px 25px;
+}
+
+.section-quem-somos {
+}
+
+.artigo-quem-somos-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 41px;
+  margin: 0px 35px;
+  margin-bottom: 112px;
+}
+
+.artigo-quem-somos-bot {
+  display: flex;
+  justify-content: space-between;
+  gap: 41px;
+  margin: 0px 35px;
+}
+
+.container-texto-quem-somos-top {
+  text-align: right;
+}
+
+.container-texto-quem-somos-bot {
+  text-align: left;
+}
+
+.imagem-quem-somos {
+  height: 456px;
+  width: 526px;
+  border-radius: 8px;
+}
+
+.titulo-quem-somos {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.texto-quem-somos {
+  font-size: 24px;
+  font-weight: 400;
+  color: #244242;
+}
+
+.section-nossa-equipe {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.container-imagem-equipe {
+  width: 246px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+.container-texto-nossa-equipe {
+  width: 100%;
+  text-align: center;
+}
+
+.nome-imagem-equipe {
+  font-size: 24px;
+  font-weight: 700;
+  color: #244242;
+}
+
+.cargo-imagem-equipe {
+  font-size: 16px;
+  font-weight: 400;
+  color: #244242;
+}
+
+.menu-botton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding: 50px 60px 0;
+  background-color: #f5f5f5;
+  width: 100vw;
+  height: 384px;
+  /* align-items: center; */
+}
+
+.titulo-botton {
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.texto-botton {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.img-rede-social-botton {
+  width: 36px;
+  height: 36px;
+}
+
+.container-imagem-rede-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.container-texto-botton {
+  height: 132px;
+  width: 100vw;
+  background-color: #244242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-desensolvido-por {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
