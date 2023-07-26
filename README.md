@@ -1,5 +1,5 @@
 # Desafio-M02-Front-End
-Este projeto consiste na avaliação do módulo 02 sobre introdução ao Front-End (HTML e CSS) no curso de Desenvolvimento de Software Full-Stack da Cubos Academy. Consiste em colocar em prática os conceitos de criação de Layout usando flex-box, estilização, estruturação de pastas, tags semânticas, padrões de nomenclatura.
+Este projeto consiste na avaliação do módulo 02 sobre introdução ao Front-End (HTML e CSS) do curso de Desenvolvimento de Software Full-Stack da Cubos Academy. Consiste em colocar em prática os conceitos de criação de Layout usando flex-box, estilização, estruturação de pastas, tags semânticas, padrões de nomenclatura e outros conceitos.
 
 ### Preview do projeto:
 https://github.com/gabriel-abal/Desafio-M02-Front-End/assets/129793663/3e472aa1-5f93-4a12-93a2-c993b9db6e21
@@ -7,7 +7,7 @@ https://github.com/gabriel-abal/Desafio-M02-Front-End/assets/129793663/3e472aa1-
 ### Padrão de organização de pastas e estrutura do html:
 ![desafio-m2-html](https://github.com/gabriel-abal/Desafio-M02-Front-End/assets/129793663/ceea2b9f-6b60-40c2-913c-e5d9fdd8e2a0)
 
-### Padrão de organização e códido css:
+### padrão de estrutura do código css:
 ![desafio-m2-css](https://github.com/gabriel-abal/Desafio-M02-Front-End/assets/129793663/003606ce-913a-494c-a3df-419c70e8c20e)
 
 ## Como abrir? :gear:
